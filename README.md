@@ -1,4 +1,4 @@
-CpuFreq-ADB
+Android-ADB-CpuFreq
 ===========
 
 Android ADB Cpu Controller
@@ -27,4 +27,4 @@ setmin - [0-9]+, [frequency] - set min frequency to a given cpu (userland)
 
 setp - [0-9]+, [policy] - set policy to a given cpu"
 
-reset - - sets the core's max and min frequency and back to the ondemand governor
+reset - [policy] - sets the core's max and min frequency and back to the ondemand governor
